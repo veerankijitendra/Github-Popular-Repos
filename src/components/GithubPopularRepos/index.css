@@ -1,0 +1,22 @@
+.popular-repo {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popular-heading {
+  font-family: 'Lobster';
+  font-size: 2.5rem;
+}
+.language-list-con {
+  display: flex;
+  /* width: 50%; */
+  padding: 0;
+}
+.repos-list-con {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
