@@ -1,8 +1,9 @@
 import './index.css'
 
 const LanguageFilterItem = props => {
-  const {item, alterTheLanguage} = props
+  const {item, alterTheLanguage, activeLanguage} = props
   const {id, language} = item
+  const style = activeLanguage === id ? 'button active' : 'button'
 
   const changeLanguage = () => {
     alterTheLanguage(id)
@@ -10,7 +11,7 @@ const LanguageFilterItem = props => {
 
   return (
     <li className="button-con">
-      <button type="button" onClick={changeLanguage} className="button">
+      <button type="button" onClick={changeLanguage} className={style}>
         {language}
       </button>
     </li>

@@ -19,4 +19,11 @@
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  justify-content: center;
+}
+.failure-heading {
+}
+.failure-con {
+}
+.failure-image {
 }
